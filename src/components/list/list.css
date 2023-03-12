@@ -1,0 +1,14 @@
+.list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.list__item {
+    color: #e1e1e1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}

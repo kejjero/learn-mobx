@@ -1,0 +1,31 @@
+.counter {
+    background-color: #282828;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.counter__wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.counter__btn {
+    padding: 10px 15px;
+    font-size: 22px;
+    min-width: 50px;
+    min-height: 50px;
+    cursor: pointer;
+}
+
+.counter__result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+}
